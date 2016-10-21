@@ -1,0 +1,37 @@
+{
+    "frameworks": {
+        "ext": {
+            "path": "ext",
+            "version": "6.2.0.981"
+        }
+    },
+    "build": {
+        "dir": "${workspace.dir}/build"
+    },
+    "packages": {
+        "dir": "${workspace.dir}/packages/local,${workspace.dir}/packages",
+        "extract": "${workspace.dir}/packages/remote"
+    },
+    "name": "MyDemoApp",
+    "tests": {
+        "browser": {
+            "farms": [
+                {
+                    "name": "Sauce Labs",
+                    "type": "saucelabs",
+                    "host": "ondemand.saucelabs.com",
+                    "port": 80,
+                    "username": "daniel.gallo",
+                    "accessKey": "23e784f3-d243-41ce-b5fe-dc87254495a6",
+                    "sessionLimit": 5,
+                    "pools": [
+                        {
+                            "name": "ModernBrowsers",
+                            "path": "test/ModernBrowsers.json"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

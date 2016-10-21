@@ -1,0 +1,15 @@
+{
+    "framework": "jasmine",
+    "libs": [],
+    "coverageFilters": [],
+    "scenarios": [
+        {
+            "libs": [],
+            "coverageFilters": [],
+            "sandbox": true,
+            "directory": "unit",
+            "name": "Unit Tests"
+        }
+    ],
+    "launchAppWatch": true
+}

@@ -1,0 +1,26 @@
+[
+    {
+        "browserName": "chrome",
+        "version": "52",
+        "sencha": {
+            "concurrency": 1
+        },
+        "platform": "Mac 10.10"
+    },
+    {
+        "browserName": "chrome",
+        "version": "53",
+        "sencha": {
+            "concurrency": 1
+        },
+        "platform": "Mac 10.10"
+    },
+    {
+        "browserName": "chrome",
+        "version": "54",
+        "sencha": {
+            "concurrency": 1
+        },
+        "platform": "Mac 10.10"
+    }
+]
