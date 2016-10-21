@@ -1,4 +1,7 @@
 .DS_Store
 .idea
 build
-bootstrap*
+bootstrap.css
+bootstrap.js
+bootstrap.json
+bootstrap.jsonp
