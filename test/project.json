@@ -9,6 +9,13 @@
             "sandbox": true,
             "directory": "unit",
             "name": "Unit Tests"
+        },
+        {
+            "libs": [],
+            "coverageFilters": [],
+            "sandbox": true,
+            "directory": "Functional",
+            "name": "Functional"
         }
     ],
     "launchAppWatch": true
