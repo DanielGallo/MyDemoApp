@@ -8,14 +8,16 @@
             "coverageFilters": [],
             "sandbox": false,
             "directory": "unit",
-            "name": "Unit Tests"
+            "name": "Unit Tests",
+            "launch": true
         },
         {
             "libs": [],
             "coverageFilters": [],
             "sandbox": true,
             "directory": "Functional",
-            "name": "Functional"
+            "name": "Functional",
+            "page": "http://www.google.com"
         }
     ],
     "launchAppWatch": true
