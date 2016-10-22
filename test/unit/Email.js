@@ -28,6 +28,10 @@ describe('Email Model', function() {
                 expect(model.get('received_on')).toBeNull();
             });
 
+            it('Should fail', function() {
+                expect(1).toBe(2);
+            });
+
         });
         
     });
