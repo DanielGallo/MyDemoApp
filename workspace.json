@@ -21,8 +21,8 @@
                     "type": "saucelabs",
                     "host": "ondemand.saucelabs.com",
                     "port": 80,
-                    "username": "daniel.gallo",
-                    "accessKey": "23e784f3-d243-41ce-b5fe-dc87254495a6",
+                    "username": "",
+                    "accessKey": "",
                     "sessionLimit": 5,
                     "pools": [
                         {
