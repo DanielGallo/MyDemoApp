@@ -4,5 +4,6 @@ describe("UI", function() {
             .rowAt(1)
             .click()*/
         ST.screenshot('Main Page');
+        
     });
 });

@@ -17,7 +17,7 @@
             "sandbox": true,
             "directory": "Functional",
             "name": "Functional",
-            "page": "http://www.google.com"
+            "page": ""
         }
     ],
     "launchAppWatch": true
