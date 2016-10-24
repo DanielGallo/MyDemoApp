@@ -17,7 +17,7 @@
             "sandbox": true,
             "directory": "Functional",
             "name": "Functional",
-            "page": ""
+            "page": "http://10.144.215.130:1841/index.html"
         }
     ],
     "launchAppWatch": true
